@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
   
     @IBAction func sayHello(_ sender: Any) {
-        output.text = "Hello, " + (input.text)!
+        output.text = "Hello, " + (input.text)! + ", how is it going?"
     }
     
     

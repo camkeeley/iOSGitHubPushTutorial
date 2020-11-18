@@ -10,6 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var input: UITextField!
+    
+    @IBOutlet var output: UILabel!
+    
+  
+    @IBAction func sayHello(_ sender: Any) {
+        output.text = "Hello, " + (input.text)!
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
